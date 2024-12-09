@@ -20,7 +20,7 @@
 
   //console.log(id===anotherId) //false
   const bigNumber = 1234343454678n // store large number
-  console.log(bigNumber);
+  //console.log(bigNumber);
 
   const heros = ["shaktiman" , "naagraj"  , "doga"];
 
@@ -32,10 +32,39 @@
   }
 
   const myFunction = function(){
-    console.log("Hi Abhishek Raj");
+    //console.log("Hi Abhishek Raj");
   }
 
-  console.log(myFunction); //whole expression of function
-  console.log(typeof myFunction); // object function
-  console.log(typeof outsideTemp); //object 
+  // console.log(myFunction); //whole expression of function
+  // console.log(typeof myFunction); // object function
+  // console.log(typeof outsideTemp); //object 
+
+  //+++++++++++++++++++++++++++++++++++++++++++
+
+  //Stack(primitive) , Heap (Non Primitive)
+//   let myabh  = "224";
+//   console.log(myabh)
+//   let another = myabh;
+//   console.log(another);
+
+
+//  another = "fgh";
+//  console.log(another);
+
+
+
+let userOne = {
+  email: "user@google.com",
+  upi: "upi@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "yxz@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
  
