@@ -77,3 +77,4 @@ const addTwo = (num1 , num2) =>   (num1+num2)
 //     console.log(`connected to two ${name}`);
 // })('hitesh');
 
+//howw does javascript work behind the scene  see one 
